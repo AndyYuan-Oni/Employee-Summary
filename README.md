@@ -36,7 +36,7 @@ first question will prompr for title, for manager, the following questions will 
 
 It will be generated in output file in the name of team.html.
 
-Click to chek out a [Demo HTML](https://andyyuan-oni.github.io/Employee-Summary/assets/teamDemo.html)
+There is also a demo html in assets file.
 
 ## Demonstrate gif
 ![Demo gif](assets/demo.gif)

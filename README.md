@@ -5,26 +5,21 @@ so that he/she can have quick access to emails and GitHub profiles.
 
 ## Description
 
-This app generate a pdf according to github username and the color theme they choose.
+This app generate a HTML page according to user input.
 
-the PDF file will include the following info:
-* Profile image
-* User name
-* Links to the following:
-  * User location via Google Maps
-  * User GitHub profile
-  * User blog
-* User bio
-* Number of public repositories
-* Number of followers
-* Number of GitHub stars
-* Number of users following
+the profile will include the following info:
+* All employee will have name, id, and email.
+* Manager will have office number.
+* Engineer will have github.
+* Intern will have school.
+
+Enter of all the employee info will be inquired and generated.
 
 
 
 ## How to Use
 
-Down load the file, open terminal to index.js route.
+Down load the file, open terminal to app.js route.
 
 In console, type in:
 ```
@@ -35,14 +30,13 @@ This is for installing all needed npm.
 Then type in:
 
 ```
-node index.js
+node app.js
 ```
-Fill in inquirer questions and hit enter. 
+first question will prompr for title, for manager, the following questions will fill up an manager info card, for engineer and intern, a card will be generated as well. until finished all the input, select "Exit" to generate html page. 
+```
+It will be generated in output file in the name of team.html.
 
-If no error, the pdf file will be generated in the same folder with the name of github name.
-
-Click to chek out a [Demo PDF](assets/AndyYuan-Oni.pdf)
-
+Click to chek out a [Demo HTML](assets/teamDemo.html)
 
 ## Demonstrate gif
 ![Demo gif](assets/demo.gif)

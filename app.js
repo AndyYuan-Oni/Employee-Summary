@@ -30,16 +30,16 @@ function getManagerQ() {
     console.log("Editing Manager!")
     inquirer.prompt(questions.managerQ)
         .then((res) => {
-            console.log(res);
+            //console.log(res);
             const managerData = new Manager(res.name,
                 res.id,
                 res.email,
                 res.officeNumber
             );
-            console.log(managerData);
+            //console.log(managerData);
             var managerEl = generateHTML.generateManagerHTML(managerData);
             employeeHTML = employeeHTML + managerEl;
-            console.log(employeeHTML);
+            //console.log(employeeHTML);
             init();
         }).catch(function(error) {
             console.log(error);
@@ -57,10 +57,10 @@ function getEngineerQ() {
                 res.email,
                 res.github
             );
-            console.log(engineerData);
+            //console.log(engineerData);
             var engineerEl = generateHTML.generateEngineerHTML(engineerData);
             employeeHTML = employeeHTML + engineerEl;
-            console.log(employeeHTML);
+            //console.log(employeeHTML);
             init();
         }).catch(function(error) {
             console.log(error);
@@ -72,16 +72,16 @@ function getInternQ() {
     console.log("Editing Intern!")
     inquirer.prompt(questions.internQ)
         .then((res) => {
-            console.log(res);
+            //console.log(res);
             const internData = new Intern(res.name,
                 res.id,
                 res.email,
                 res.school
             );
-            console.log(internData);
+            //console.log(internData);
             var internEl = generateHTML.generateInternHTML(internData);
             employeeHTML = employeeHTML + internEl;
-            console.log(employeeHTML);
+            //console.log(employeeHTML);
             init();
         }).catch(function(error) {
             console.log(error);

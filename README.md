@@ -33,7 +33,7 @@ Then type in:
 node app.js
 ```
 first question will prompr for title, for manager, the following questions will fill up an manager info card, for engineer and intern, a card will be generated as well. until finished all the input, select "Exit" to generate html page. 
-```
+
 It will be generated in output file in the name of team.html.
 
 Click to chek out a [Demo HTML](assets/teamDemo.html)
